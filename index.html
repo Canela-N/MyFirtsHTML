@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <!--Esto es un comentario-->
+    <head>
+        <title>Página de geekos</title>
+        <meta charset="UTF-8">
+        <link href = "estilos.css" rel = "stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--<h1>¡Hola, mundo!</h1>
+        <h2>Esta es mi primera pagina web</h2>
+        <h3>La hice en Tecnolochicas PRO</h3>-->
+        <h1>Página de geekos</h1>
+        <h3>Imagenes de geekos</h3>
+        <!--Imagenes desde internet-->
+        <img  class = "img1" src = "https://img.wattpad.com/953e7eebc1d2e3d93a1c3120a64dd9087547e1b2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f374b354e526638796552524e69673d3d2d3637362e313661396237383164383165666366653234323734393932303938322e6a7067?s=fit&w=720&h=720">
+
+        <!--Imagen desde la computadora-->
+
+        <img src = "Imagenes/79e3766d0b02d9272e7720d03f4030e7.jpg">
+
+        <!--Investigar 20 elementos de html y para que funcionan-->
+
+        <!--Crear enlaces externos-->
+        <p>Si quieres ver más imagenes de Geckos, <a href="http://www.exoticpetmedicalcenter.com.mx/especies_reptiles_gecko.html"> da click en este enlace </a>. </p>
+
+        <h3> Lista de Geckos </h3>
+
+        <p>3 cosas que los Geckos  <strong> ama </strong></p>
+
+        <!--Lista ordenada-->
+
+        <ol>
+            <li> Gusanos</li>
+            <li> Humedad calida </li>
+            <li> Lugares oscuros </li>
+        </ol>
+
+        <p>3 cosas que los Geckos <i>odian</i> </p>
+
+        <ul>
+            <li>Cascaras de huevo </li>
+            <li> Olores fuertes </li>
+            <li>Luces fuertes </li>
+        </ul>
+
+        <!--Formulario-->
+        
+        <form> 
+            <!--Form botones de radio-->
+            <p>¿Tu gecko es joven o adulto? </p>
+            <label> <!--etiqueta descriptiva-->
+                <input id = "joven" type = "radio" value = "joven" name = "joven-adulto"> Joven <!--input para botones de radio y casillas de verificación, Value define al elemento que te redirigue cuando termine, name = asigna nombre al formulario, id = un identificador único // checked= lo marca de manera automatica -->
+
+            </label>
+            <br>
+            <label> 
+                <input id = "adulto" type = "radio" value = "adulto" name = "joven-adulto">  Adulto 
+            </label>
+            <!--Form con casillas de verificación -->
+            <p> ¿Qué tipo de personalidad tiene tu gecko? </p>
+            <label> 
+                <input id = "ermitaño" type = "checkbox" value = "ermitaño" name = "personalidad" checked> Ermitaño 
+            </label>
+            <br>
+            <label>
+                <input id = "amigable" type = "checkbox" value = "amigable" name = "personalidad" > Amigable
+            </label>
+            <br> 
+            <label> 
+                <input id = "tranquilo" type = "checkbox" value = "tranquilo" name = "personalidad" > Tranquilo
+            </label>
+        </form>
+
+    </body>
+
+    <footer>
+        <p><small> Esta página fue creada durante el bootcamp de Tecnolochicas PRO </small></p>
+    </footer>
+</html>
